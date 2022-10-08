@@ -57,7 +57,7 @@ jobs:
                 libgl-dev:armhf libvulkan-dev:armhf libpulse-dev:armhf libx11-dev:armhf libxft-dev:armhf \
                 libxcursor-dev:armhf libxext-dev:armhf libxfixes-dev:armhf libxi-dev:armhf libxinerama-dev:armhf libxrandr-dev:armhf \
                 libxxf86vm-dev:armhf libfreetype6-dev:armhf g++-10-arm-linux-gnueabihf
-                apt-get install -q -y g++-10-aarch64-linux-gnu libgl-dev:arm64 libvulkan-dev:arm64 libpulse-dev:arm64 libx11-dev:arm64 libxft-dev:arm64 \
+                apt-get install -q -y g++-10 libgl-dev:arm64 libvulkan-dev:arm64 libpulse-dev:arm64 libx11-dev:arm64 libxft-dev:arm64 \
                 libxcursor-dev:arm64 libxext-dev:arm64 libxfixes-dev:arm64 libxi-dev:arm64 libxinerama-dev:arm64 libxrandr-dev:arm64 \
                 libxxf86vm-dev:arm64 libfreetype6-dev:arm64 
                 ;;
